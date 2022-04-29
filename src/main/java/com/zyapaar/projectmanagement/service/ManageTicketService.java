@@ -3,6 +3,7 @@ package com.zyapaar.projectmanagement.service;
 import java.util.List;
 import com.zyapaar.projectmanagement.dto.TicketDto;
 import com.zyapaar.projectmanagement.repository.TicketRepo;
+import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 import lombok.RequiredArgsConstructor;
 
@@ -12,7 +13,7 @@ public class ManageTicketService  implements TicketService{
 
 TicketRepo ticketRepo;
 
-
+ModelMapper modelMapper;
 @Override
   public List<TicketDto> getAllTickets() {
     // TODO Auto-generated method stub
