@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class DataDto {
+public class TicketDto {
 
   // @NotNull
   // public String ticketId;

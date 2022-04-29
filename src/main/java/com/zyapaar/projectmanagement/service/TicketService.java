@@ -1,12 +1,13 @@
 package com.zyapaar.projectmanagement.service;
 
 import java.util.List;
+import com.zyapaar.projectmanagement.dto.TicketDto;
 
 public interface TicketService {
 
-  List<Ticket> getAllTickets();
+  List<TicketDto> getAllTickets();
 
-  Ticket getTicketById(String ticketId);
+  TicketDto getTicketById(String ticketId);
 
   void createTicket(String ticketId);
 
