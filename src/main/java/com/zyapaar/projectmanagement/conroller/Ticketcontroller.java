@@ -8,7 +8,4 @@ public class Ticketcontroller {
   
   TicketRepo ticketRepo;
 
-
-
-
 }
